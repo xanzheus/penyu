@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1140px) {
+	html,
+	body {
+		font-size: 100%;
+	}
+}
+@media only screen and (max-width: 1002px) {
+	html,
+	body {
+		font-size: 100%;
+	}
+	.main-logo {
+		width: 80px;
+	}
+	nav.stinky li a {
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	nav ul {
+		display: none;
+	}
+	nav .main-logo img {
+		position: relative;
+		right: 30px;
+	}
+	nav.stinky .main-logo img {
+		position: inherit;
+		right: 0;
+	}
+	nav.stinky ul {
+		display: flex;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	nav.stinky {
+		flex-direction: row;
+		padding-top: 49px;
+		justify-content: flex-start;
+		transition: all 400ms ease;
+		transition-delay: 200ms;
+	}
+	nav.stinky ul li {
+		margin: 10px 0;
+		justify-content: center;
+		width: 100%;
+	}
+	nav.stinky li a {
+		text-align: center;
+		font-size: 120%;
+		line-height: 30px;
+		font-weight: 400;
+	}
+	nav.stinky li a:hover {
+		background-color: black;
+	}
+	nav.stinky .burger-menu {
+		display: flex;
+	}
+	nav {
+		justify-content: space-between;
+		padding: 20px 50px;
+		box-shadow: none;
+	}
+	.scrolller li a::after,
+	nav li a::after {
+		display: none;
+	}
+	.scrolllerMobile {
+		background-color: teal;
+	}
+	.mobile {
+		left: 40px;
+	}
+	.burger-menu.rotate {
+		position: relative;
+		top: -190px;
+	}
+	nav.stinky .main-logo {
+		position: relative;
+		top: -180px;
+		right: 40px;
+	}
+	.burger-menu {
+		display: flex;
+	}
+	/* Persyaratan Relawan */
+	.persyaratan-relawan .icon img {
+		width: 50%;
+	}
+	.box-prasyarat {
+		flex-basis: 45%;
+		height: 38vh;
+	}
+	/* Penutup */
+	.container-box {
+		width: 100%;
+		flex-direction: column;
+	}
+	.profile {
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	.footer-artikel {
+		font-size: 60%;
+	}
+}
+@media only screen and (max-width: 499px) {
+	.box-prasyarat {
+		flex-basis: 100%;
+		height: 38vh;
+	}
+	.persyaratan-relawan .icon img {
+		width: 20%;
+	}
+	.keterangan p {
+		font-size: 75%;
+	}
+	.main-image-article {
+		flex-direction: column;
+	}
+	.main-image-article .box-image {
+		width: 100%;
+		margin: 5px 0;
+	}
+}
+@media only screen and (max-width: 451px) {
+	html,
+	body {
+		font-size: 91%;
+	}
+	.main-logo {
+		width: 50px;
+	}
+	nav.stinky li a {
+		font-size: 100%;
+	}
+	.box-prasyarat {
+		flex-basis: 100%;
+		height: 38vh;
+	}
+	.persyaratan-relawan .icon img {
+		width: 20%;
+	}
+	.keterangan p {
+		font-size: 100%;
+	}
+	.footer-artikel {
+		font-size: 50%;
+	}
+	.main-footer img {
+		width: 5%;
+		vertical-align: middle;
+	}
+}
